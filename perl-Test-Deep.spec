@@ -1,6 +1,6 @@
 Name:           perl-Test-Deep
 Version:        0.110
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Extremely flexible deep comparison
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -54,6 +54,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/Test::Deep::NoTest.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.110-2
+- Mass rebuild 2013-12-27
+
 * Wed Feb 20 2013 Paul Howarth <paul@city-fan.org> - 0.110-1
 - Update to 0.110
   - Allow methods() and listmethods() to work again on class methods
